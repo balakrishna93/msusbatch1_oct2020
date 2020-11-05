@@ -44,7 +44,6 @@ public class CustomerController {
     	}
     	else
     		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Customer Not Added");
-    	
     }
     
     @RequestMapping(value = "/customers", 

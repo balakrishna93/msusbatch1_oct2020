@@ -3,7 +3,6 @@ package com.virtusa.banking.models;
 import java.time.LocalDate;
 import java.util.List;
 
-import javax.annotation.Generated;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -61,6 +60,7 @@ public class Customer {
 	  
 	  @JsonFormat(with = JsonFormat.Feature.ACCEPT_SINGLE_VALUE_AS_ARRAY) private
 	  List<Address> addressList;
+	 
 	 
 
 }
